@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 0.4rem;
+   background-color: #fff;
+   font-size: 30px;
+}
+
+main{
+    height: 90vh;
+    background-image: linear-gradient(rgba(95, 153, 241, 0.418), rgba(95, 153, 241, 0.418)), url('./img/country-bg1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+
+}
+
+.main-content h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;  
+    padding-top: 6rem;
+}
+
+.main-content p{
+text-align: center; 
+font-size: 26px; 
+color: #fff;  
+}
+
+.main-content{
+    text-align: center;
+}
+
+
+.btn-secondary{
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%) !important;
+color: #fff;
+text-align: center;
+margin-top: 2rem;
+cursor: pointer;
+transition: 1s ease-in-out;
+}
+
+.btn-secondary:hover{
+    transform: scale(1.1);
+}
