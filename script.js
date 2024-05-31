@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const countriesContainer = document.getElementById('countries-container');
     const regionSelect = document.getElementById('region-select');
     const searchBox = document.getElementById('search-box');
-    // const darkModeToggle = document.getElementById('dark-mode-toggle');
     const countryDetailsModal = document.getElementById('country-details-modal');
     const countryDetails = document.getElementById('country-details');
     const closeModal = document.getElementById('close-modal');
