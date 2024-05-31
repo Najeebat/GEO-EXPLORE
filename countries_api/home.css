@@ -22,7 +22,7 @@
   
   main {
     height: 90vh;
-    background-image: linear-gradient(rgba(95, 153, 241, 0.418), rgba(95, 153, 241, 0.418)), url('/img/country-bg1.jpg');
+    background-image: linear-gradient(rgba(95, 153, 241, 0.418), rgba(95, 153, 241, 0.418)), url('/img/country_bg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
