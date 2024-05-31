@@ -1,63 +1,80 @@
-*{
+* {
     margin: 0;
-    padding: 0%;
+    padding: 0;
     box-sizing: border-box;
-}
-
-nav{
+  }
+  
+  nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
     color: black;
     padding: 0.4rem;
-   background-color: #fff;
-   font-size: 30px;
-   height: 3.2rem;
-}
-
-nav a img{
+    font-size: 30px;
+    height: 3.2rem;
+  }
+  
+  nav a img {
     height: 4rem;
     padding: 3px;
-}
-
-main{
+  }
+  
+  main {
     height: 90vh;
     background-image: linear-gradient(rgba(95, 153, 241, 0.418), rgba(95, 153, 241, 0.418)), url('/img/country-bg1.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  align-items: center;
-
-}
-
-.main-content h1{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+  }
+  
+  .main-content {
     text-align: center;
+  }
+  
+  .main-content h1 {
     font-size: 3rem;
-    color: #fff;  
+    color: #fff;
     padding-top: 6rem;
-}
-
-.main-content p{
-text-align: center; 
-font-size: 26px; 
-color: #fff;  
-}
-
-.main-content{
-    text-align: center;
-}
-
-
-.btn-secondary{
+  }
+  
+  .main-content p {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .btn-secondary {
     background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%) !important;
-color: #fff;
-text-align: center;
-margin-top: 2rem;
-cursor: pointer;
-transition: 1s ease-in-out;
-}
-
-.btn-secondary:hover{
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: transform 1s ease-in-out;
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .btn-secondary:hover {
     transform: scale(1.1);
-}
+  }
+  
+  /* Styles for mobile devices */
+  @media (max-width: 899px) {
+    .main-content h1 {
+      font-size: 2rem;
+      padding-top: 6rem;
+    }
+    
+    .main-content p {
+      font-size: 1.35rem;
+    }
+
+    main{
+        height: 92vh;
+    }
+  }
+  
