@@ -4,21 +4,20 @@
     box-sizing: border-box;
   }
   
-  nav {
+  nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    color: black;
     padding: 0.4rem;
-    font-size: 30px;
-    height: 3.2rem;
-  }
-  
-  nav a img {
+   background-color: #fff;
+   height: 3.2rem;
+}
+
+nav a img{
     height: 4rem;
     padding: 3px;
-  }
+}
   
   main {
     height: 90vh;

@@ -6,21 +6,18 @@ body {
   color: #333;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    color: black;
-    padding: 0.4rem;
-   background-color: #fff;
-   font-size: 30px;
-   height: 3.2rem;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem;
+  background-color: #fff;
+  height: 2.5rem;
 }
 
-nav a img{
-    height: 4rem;
-    padding: 3px;
+nav a img {
+  height: 3.7rem;
+  padding: 3px;
 }
 
 .top-bar {
